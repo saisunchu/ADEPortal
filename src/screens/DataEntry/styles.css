@@ -1,0 +1,111 @@
+/* Container */
+.container {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form */
+#myForm {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Input fields */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Submit button */
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Table */
+.table-separator {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-separator th,
+.table-separator td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.table-separator th {
+  background-color: rgb(245, 245, 52);
+  font-weight: bold;
+}
+
+/* Heading row */
+.heading-row {
+  background-color: yellow;
+  color: black;
+}
+
+.heading-row th {
+  padding: 8px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.table-separator td {
+  /* padding: 8px;
+  font-weight: bold; */
+  text-align: left;
+}
+
+/* Date input fields */
+.form-control[type="date"] {
+  width: calc(80% - 5px); /* Set width to 50% minus margin */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px; /* Add margin between date inputs */
+}
+
+/* Adjust margin for last date input */
+.form-control[type="date"]:last-child {
+  margin-right: 0; /* Remove margin for last date input */
+}
+
+.logout-button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
